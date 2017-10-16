@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2014, 5:44:52 PM
+    Author     : exp10r3r
+*/
+body {
+    overflow: scroll;
+}
+.news {
+ // border-style: groove;
+    //background-color: #33cc00;//
+   // border-color: #999999;
+    border-radius: 5px;
+   
+}
+.coll-news {
+    //border-style: groove;
+    //background-color: #33cc00;//
+   // border-color: #999999;
+ //   border-radius: 5px;
+   
+}
+.newscontents{
+    font-size:20px;
+    color:  #999999;
+    font-family: cursive;
+        }
+        
+.newscontents2{         
+  padding: 30px;
+  font-size:23px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.newscontents p {
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight: 200;
+  background-color: #00ff00;
+}
+.news-item{
+    font-size: 19px;font-family:cursive;color:grey;
+}
+.news-source{
+    font-size:25px;color:#269abc;font-family: sans-serif;
+    }
+.news-time{
+    font-size:13px;color:gray;font-family: sans-serif;
+    }
+    .selection-items {
+  position:relative ;
+  display: table;
+  border-collapse: separate;
+  float: left;
+  margin-bottom: 0;
+  
+}
+.select-subject{
+    background-color: #eee;
+    color: #999999;
+    alignment-adjust: central;
+    font-size: 23px;
+    border-radius: inherit;
+    text-align: center;
+    
+}
+.profile{
+    border-radius: inherit;
+}
+#flip
+{
+padding:1px;
+//text-align:center;
+background-color:gainsboro;
+}
+#panel
+{
+    padding: 20px;
+display:none;
+}
+
+.comment-list {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.comments {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comment {
+    border-bottom: 1px dotted #777777;
+    padding: 15px;
+}
+
+.comment-meta {
+    display: block;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.comment-author {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 3px 0;
+}
+
+.comment-date {
+    color: #777777;
+    font-size: 11px;
+    font-style: italic;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.comment-date a {
+    color: #777777;
+}
+
+.comment-wrap .comment-text {
+    font-size: 12px;
+    line-height: 20px;
+}
